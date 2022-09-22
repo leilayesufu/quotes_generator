@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #3b4ad8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);   
+    padding: 20px;
+    max-width: 500px;
+    min-width: 500px;
+    margin: 20px;
+  
+}
+
+.main header{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main .container .quote-icon {
+    font-size: 20px;
+}
+
+.main .container .quote-icon-left {
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.main .container .quote p {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.main .container .quote-icon-right {
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.main .container .author {
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 20px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns .use-btns .refresh-btn {
+    font-size: 18px;
+    background: black;
+    color: #3b4ad8;
+    padding: 12px;
+    border-radius: 9999px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.use-btns :hover{
+    font-size: larger;
+    width: 150%;
+}
+
+.btns .send-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns .send-btn .btn {
+    font-size: 18px;
+    background: black;
+    color: #3b4ad8;
+    padding: 12px;
+    border: 1px solid #3b4ad8;
+    border-radius: 9999px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns .send-btn .btn :hover{
+    font-size: larger;
+ 
+}
+
